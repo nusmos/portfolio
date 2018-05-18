@@ -1,0 +1,148 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  -webkit-appearance: none;
+}
+
+/* .nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.top-navigation ul li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 30px;
+  font-size: 16px;
+  background-color: white;
+
+  header {
+    background-color: white;
+  }
+
+  .logo {
+  font-size: 25px;
+  font-weight: bold;
+  }
+} */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  height: 70px;
+  z-index: 10;
+  -webkit-box-shadow: 0px 2px 14px -7px rgba(15,15,15,1);
+  -moz-box-shadow: 0px 2px 14px -7px rgba(15,15,15,1);
+  box-shadow: 0px 2px 14px -7px rgba(15,15,15,1);
+}
+
+nav > div {
+  width: 100%;
+  padding: 25px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  font-size: 17px;
+  padding: 0 35px;
+}
+
+nav .logo {
+  font-size: 30px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.intro {
+  background-color: white;
+  height: 955px;
+  padding-top: 432px;
+}
+/* .proyectos {
+background-color: green;
+height: 550px;
+padding-top: 20px;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.col-egrocery, .col-sueno {
+  height: 250px;
+  width: 350px;
+  float: left;
+  margin: 20px 0 0 200px;
+  border: 2px solid black;
+  padding-top: 110px; */
+/*
+} */
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.prueba {
+  background-color: orange;
+  padding: 50px 0;
+}
+
+.proyect {
+  border: 2px solid #000;
+  height: 400px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.perfil {
+background-color: blue;
+height: 400px;
+padding-top: 20px;
+}
+
+.texto-perfil {
+  height: 300px;
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.contacto {
+background-color: orange;
+height: 200px;
+width: 100%;
+padding-top: 20px;
+}
+
+footer ul {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.rrhh {
+  margin: 30px 10px 0 10px;
+}
